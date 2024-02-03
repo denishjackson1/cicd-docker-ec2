@@ -33,3 +33,5 @@ To use this workflow for deploying your Dockerized application to an EC2 instanc
 `.github/workflows/cicd.yml`: GitHub Actions workflow file responsible for building, pushing, and deploying the Dockerized application.
 
 `deploy.sh`: Deployment script to be executed on the EC2 instance for pulling the Docker image and running the container.
+
+Once the workflow is successful, you should be in position to access the application using the instance public IP
