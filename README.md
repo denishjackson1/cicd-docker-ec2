@@ -19,11 +19,11 @@ To use this workflow for deploying your Dockerized application to an EC2 instanc
 
 - Update Workflow Variables: Replace the placeholders in the workflow file (cicd.yml) with your actual values:
 
-`$SSH_PRIVATE_KEY`: Your SSH private key.
+    `$SSH_PRIVATE_KEY`: Your SSH private key.
 
-`$EC2_PUBLIC_IP`: Public IP address of your EC2 instance.
+    `$EC2_PUBLIC_IP`: Public IP address of your EC2 instance.
 
-`your-image-name`: Name of your Docker image.
+    `your-image-name`: Name of your Docker image.
 
 - Create Deployment Script: Create a `deploy.sh` script that contains the necessary commands to pull the Docker image from Docker Hub and run the container on your EC2 instance.
 
